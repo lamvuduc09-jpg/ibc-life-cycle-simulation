@@ -110,7 +110,7 @@ const loader = new GLTFLoader();
 
 
     loader.load(
-    './models/ibc.glb',
+   './ibc.glb',
 
     function (gltf) {
 
