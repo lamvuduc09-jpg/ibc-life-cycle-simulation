@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IBC Life Cycle Simulation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+        }
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>IBC Life Cycle Simulation</h1>
+    <p>My first IBC environmental simulation.</p>
+<div id="info-panel">
+    <button id="close-panel">×</button>
+
+    <h2>IBC Container</h2>
+
+    <p><strong>Type:</strong> Composite IBC</p>
+    <p><strong>Nominal capacity:</strong> 1000 L</p>
+
+    <hr>
+
+    <h3>Main Components</h3>
+
+    <p>Inner bottle: HDPE</p>
+    <p>Outer cage: Steel</p>
+    <p>Pallet: To be defined</p>
+
+    <hr>
+
+    <h3>Life Cycle</h3>
+
+    <p id="stage">Current stage: Production</p>
+    <p id="cycle">Reuse cycle: 1</p>
+</div>
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>
